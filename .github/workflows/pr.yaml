@@ -1,11 +1,5 @@
 name: neo4j_graphrag PR
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    branches:
-      - master
+on: [push]
 
 jobs:
   test:
